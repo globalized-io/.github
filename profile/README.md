@@ -20,17 +20,21 @@
 
 ---
 
-Globalized is a fintech platform bridging traditional finance and digital assets. We give financial operators one integration for banking, payments and custody across 180+ countries and 14 blockchains, with every service sourced from regulated and licensed providers and compliance built into every layer.
+Globalized operates Global1, an orchestration layer for institutional digital-asset operations. It enables banks, asset managers, hedge funds, exchanges and other financial institutions to define their own controls, routing and operating model while using regulated providers as one system, so that adopting digital assets becomes comparable to the way institutions already consume financial infrastructure, without the layer ever holding keys, funds or accounts of record.
 
-### What we build
+### How it works
 
-- **Platform as a Service** – modular, prebuilt infrastructure for launching financial services on licensed rails.
-- **Embedded Finance** – enterprise-grade financial capabilities inside existing systems.
-- **Custody** – multi-chain MPC custody for institutions.
+- Like a direct integration, Global1 executes every regulated action at a licensed provider, under an account held in the institution's own name.
+- Institutions see one record of their operations whichever provider carried them out, with one status vocabulary across all of them.
+- Every operation that moves value is journaled before any provider is contacted and settled only from what the provider is observed to have done.
+- Each institution routes independently, per asset, network, currency and provider, and adds or replaces a provider without changing its integration.
+- Every state change is recorded in a hash-chained audit log per organisation.
+
+Tier-one custodians, conversion providers, banking partners, staking providers and tokenization providers connect through the same interfaces, and the institution's integration is the same whichever of them execute.
 
 ### How we build
 
-Our core systems are written in **Rust**. Memory safety is not something you can add to a settlement system after the fact, so we chose a language that enforces it. Globalized is a founding member of the [Rust Commercial Network](https://globalized.io/news/rust-commercial-network), alongside AWS, Google, Microsoft, GitHub and OpenAI.
+Our core systems are written in Rust. Memory safety is not something you can add to a settlement system after the fact, so we chose a language that enforces it. Globalized is a founding member of the [Rust Commercial Network](https://globalized.io/news/rust-commercial-network), alongside AWS, Google, Microsoft, GitHub and OpenAI.
 
 ### Security
 
