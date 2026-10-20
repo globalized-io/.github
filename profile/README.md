@@ -32,8 +32,6 @@ Globalized is a fintech platform bridging traditional finance and digital assets
 
 Our core systems are written in **Rust**. Memory safety is not something you can add to a settlement system after the fact, so we chose a language that enforces it. Globalized is a founding member of the [Rust Commercial Network](https://globalized.io/news/rust-commercial-network), alongside AWS, Google, Microsoft, GitHub and OpenAI.
 
-We are working toward ISO 27001 and SOC 2 Type II certification.
-
 ### Open source
 
 Our platform code is private. Developer tooling, API specifications and SDKs will be published here as they mature.
@@ -41,9 +39,3 @@ Our platform code is private. Developer tooling, API specifications and SDKs wil
 ### Security
 
 Found a vulnerability? Please read our [security policy](https://github.com/globalized-io/.github/blob/main/SECURITY.md) and report it privately. Do not open a public issue.
-
-### Join us
-
-We are hiring across engineering, compliance and commercial roles in Copenhagen. See [open positions](https://globalized.io/careers).
-
-<p align="center"><sub>Globalized Group ApS · CVR 46607546 · Copenhagen, Denmark</sub></p>
