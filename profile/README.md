@@ -20,11 +20,11 @@
 
 ---
 
-Globalized is a regulated fintech platform bridging traditional finance and digital assets. We give financial operators one integration for banking, payments and custody across 180+ countries and 14 blockchains, sourced from licensed providers and built with compliance in every layer.
+Globalized is a fintech platform bridging traditional finance and digital assets. We give financial operators one integration for banking, payments and custody across 180+ countries and 14 blockchains, with every service sourced from regulated and licensed providers and compliance built into every layer.
 
 ### What we build
 
-- **Platform as a Service** – modular, prebuilt infrastructure for launching regulated financial services.
+- **Platform as a Service** – modular, prebuilt infrastructure for launching financial services on licensed rails.
 - **Embedded Finance** – enterprise-grade financial capabilities inside existing systems.
 - **Custody** – multi-chain MPC custody for institutions.
 

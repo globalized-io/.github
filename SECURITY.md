@@ -1,6 +1,6 @@
 # Security Policy
 
-Globalized operates regulated financial infrastructure, and we take the security of our systems and our customers' assets seriously. We appreciate the work of security researchers and will engage with you in good faith.
+Globalized builds financial infrastructure on regulated rails, and we take the security of our systems and our customers' assets seriously. We appreciate the work of security researchers and will engage with you in good faith.
 
 ## Reporting a vulnerability
 
