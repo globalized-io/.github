@@ -32,38 +32,6 @@ Globalized operates Global1, an orchestration layer for institutional digital-as
 
 Tier-one custodians, conversion providers, banking partners, staking providers and tokenization providers connect through the same interfaces, and the institution's integration is the same whichever of them execute.
 
-```mermaid
-flowchart LR
-    subgraph Institutions
-        direction TB
-        Bank
-        Broker
-        AM[Asset manager]
-    end
-
-    G1(["Global1<br/>orchestration layer"])
-
-    subgraph Providers
-        direction TB
-        CA[Custodian A]
-        CB[Custodian B]
-        BP[Banking partner]
-        DS[Digital-asset service]
-        IP[Issuance partner]
-    end
-
-    Bank --> G1
-    Broker --> G1
-    AM --> G1
-    G1 --> CA
-    G1 --> CB
-    G1 --> BP
-    G1 --> DS
-    G1 --> IP
-```
-
-<p align="center"><sub>Institutions and providers each connect to the layer once. Operations and records flow through the layer; accounts and agreements run directly between an institution and each of its providers. No institution integrates a provider, and the layer holds neither keys nor funds.</sub></p>
-
 ### How we build
 
 Our core systems are written in Rust. Memory safety is not something you can add to a settlement system after the fact, so we chose a language that enforces it. Globalized is a founding member of the [Rust Commercial Network](https://globalized.io/news/rust-commercial-network), alongside AWS, Google, Microsoft, GitHub and OpenAI.
