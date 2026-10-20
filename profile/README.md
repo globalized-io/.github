@@ -1,5 +1,10 @@
 <p align="center">
-  <a href="https://globalized.io"><img src="https://globalized.io/logos/globalized-logotype.svg" alt="Globalized" width="260"></a>
+  <a href="https://globalized.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logotype-dark.svg">
+      <img src="assets/logotype-light.svg" alt="Globalized" width="260">
+    </picture>
+  </a>
 </p>
 
 <h3 align="center">The single access point for global financial infrastructure.</h3>
