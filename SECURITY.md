@@ -33,7 +33,3 @@ To protect our customers and keep your research lawful, please:
 - Give us reasonable time to remediate before any public disclosure
 
 Research conducted in line with this policy is authorized. We will not pursue legal action against researchers who act in good faith.
-
-## Recognition
-
-We do not currently run a paid bug bounty programme. With your permission, we are happy to credit researchers who report valid issues.

@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<h3 align="center">The single access point for global financial infrastructure.</h3>
+<h3 align="center">Connecting the future.</h3>
 
 <p align="center">
   <a href="https://globalized.io">Website</a> ·
